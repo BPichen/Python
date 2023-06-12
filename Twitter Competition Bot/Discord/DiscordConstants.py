@@ -1,0 +1,4 @@
+twitter_bearer_token = "AAAAAAAAAAAAAAAAAAAAAPfBiwEAAAAAa0kSBfVIoz%2BIXy5nj58b4CcMsdc%3DHCUsHnTIw0UfJHQFuVIG2SdZl1Bi3ujs2kF1trcLNHvYmTg5ok"
+bot_token = 'MTA0Njk2Njc5ODMyODgwNzQzNA.GQbMuX.Sb_zqxhp2MD8geBxFGeJi8TfECwDTePnFUYsnM'
+bot_admin_chat_id = -799032588
+read_file = 'DiscordTwitterCompBot.json'
