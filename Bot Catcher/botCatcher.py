@@ -29,7 +29,7 @@ launch_info = {
 web3 = Web3(Web3.HTTPProvider(launch_info['active_rpc']))
 web3.middleware_onion.inject(geth_poa_middleware, layer=0)
 
-account = {'address': '0x65bAB07c9B4eCf1F3cA31ABe7e1ec1548495949b', 'private_key': '0x7ec8928c8d60a1a15b03364327d35a561914d92f6aad8f3919a575847d6987cb'}
+account = {'address': '0x65bAB07c9B4eCf1F3cA31ABe7e1ec1548495949b', 'private_key': constants.private_key}
 contract_names = ['WOJAKHORSEMAN', 'ApeCoin', 'GooseHonk', 'SMINEM', '佩佩', '我的', '一', '之一', '壹']
 contract_symbols = ['WOH', 'APE', 'HONK', 'OGSM', '佩佩', '我的', '一', '之一', '壹']
 
