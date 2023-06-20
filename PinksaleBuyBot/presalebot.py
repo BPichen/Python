@@ -20,14 +20,7 @@ contract = web3.eth.contract(address=address,abi=token_abi)
 
 list_of_entries = []
 
-img = r"C:\Users\Brandon\Documents\Coding\denarius\denarius.jpg"
-
-def handle_new_event(event):
-    #print(Web3.toJSON(event))
-    try:
-        bot.send_message(admin_chat, event)
-    except:
-        print("Failure")
+img = constants.img
 
 def connectToDB():
     try:
